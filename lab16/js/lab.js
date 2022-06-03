@@ -8,7 +8,7 @@ console.log("im dying");
 
  // Using the core $.ajax() method
  $.ajax({
-   url: "https://xkcd.com/614/info.0.json",
+   url: "https://xkcd.com/info.0.json",
    type: "GET",
    crossDomain: true,
    dataType: "json",

@@ -10,7 +10,6 @@ console.log("im dying");
  $.ajax({
    url: "https://xkcd.com/info.0.json",
    type: "GET",
-   crossDomain: true,
    dataType: "json",
    success: function(data){
      var comicObj = data;

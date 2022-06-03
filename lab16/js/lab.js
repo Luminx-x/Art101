@@ -4,6 +4,7 @@
  * License: Public Domain
  */
 
+console.log("im dying");
 
  // Using the core $.ajax() method
  $.ajax({
